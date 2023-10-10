@@ -9,10 +9,10 @@ H_DIM = 10 # количество нейронов в первом слое, я 
 x = np.array([12.4, 2.1, 6.5, 1.2]) # перечисленны признаки. 1й - длинна чешелистика, 2й - ширина чешелистика, 3й - длинна лепестка, 4й - ширина лепестка
 #x = np.random.randn(INPUT_DIM)
 
-W1 = np.load('W1.npy')
-b1 = np.load('b1.npy')
-W2 = np.load('W2.npy')
-b2 = np.load('b2.npy')
+W1 = np.load('C:/Users/CPO_V/OneDrive/Документы/GitHub/AI/nl_class/W1.npy')
+b1 = np.load('C:/Users/CPO_V/OneDrive/Документы/GitHub/AI/nl_class/b1.npy')
+W2 = np.load('C:/Users/CPO_V/OneDrive/Документы/GitHub/AI/nl_class/W2.npy')
+b2 = np.load('C:/Users/CPO_V/OneDrive/Документы/GitHub/AI/nl_class/b2.npy')
 
 #weights = np.load('weights.npz')
 #W1 = weights['W1']
